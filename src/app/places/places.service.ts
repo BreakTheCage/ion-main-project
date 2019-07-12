@@ -6,7 +6,27 @@ import { Place } from './place.model';
 })
 export class PlacesService {
   private _places: Place[] = [
-    new Place('p1', 'Manhatan Mansion', 'In the heart of New York City', )
+    new Place(
+      'p1',
+      'Manhatan Mansion',
+      'In the heart of New York City',
+      'https://pix10.agoda.net/hotelImages/522/522910/522910_13091222290015134450.jpg?s=1024x768',
+      149.99
+    ),
+    new Place(
+      'p2',
+      'L Amoure Tojoure',
+      'A romantic place in Paris!',
+      'https://louisfeedsdc.com/wp-content/uploads/french-style-home_383033.jpg',
+      189.99
+    ),
+    new Place(
+      'p3',
+      'Foggy Palace',
+      'Not your average city trip!',
+      'https://i0.wp.com/www.photographyandtravel.com/wp-content/uploads/2017/05/B2.-Pena-Palace-043-Edit.jpg?resize=1090%2C807',
+      99.99
+    ),
   ];
   get places() {
     return [...this._places];
