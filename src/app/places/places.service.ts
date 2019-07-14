@@ -10,7 +10,7 @@ export class PlacesService {
       'p1',
       'Manhatan Mansion',
       'In the heart of New York City',
-      'https://pix10.agoda.net/hotelImages/522/522910/522910_13091222290015134450.jpg?s=1024x768',
+      'https://a.1stdibscdn.com/archivesE/upload/a_241/a_26038411520285183192/Architectural_024_mae_2018_master.jpg?width=768',
       149.99
     ),
     new Place(
