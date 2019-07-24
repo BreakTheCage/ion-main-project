@@ -66,11 +66,11 @@ export class NewOfferPage implements OnInit {
         new Date(this.form.value.dateFrom),
         new Date(this.form.value.dateTo),
         this.form.value.location
-       ).subscribe(() => {
-         loadingEl.dismiss();
-         this.form.reset();
-         this.router.navigate(['/places/tabs/offers/']);
-       });
+      ).subscribe(() => {
+        loadingEl.dismiss();
+        this.form.reset();
+        this.router.navigate(['/places/tabs/offers/']);
+      });
     })
 
 
